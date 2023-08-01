@@ -16,7 +16,7 @@ import { WorkOrdersComponent } from './pages/work-orders/work-orders.component';
 import { StaffComponent } from './pages/staff/staff.component';
 import { SettingsComponent } from './pages/settings/settings.component';
 import { GoogleMapsModule } from '@angular/google-maps';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -30,7 +30,8 @@ import { GoogleMapsModule } from '@angular/google-maps';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    GoogleMapsModule
+    GoogleMapsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
