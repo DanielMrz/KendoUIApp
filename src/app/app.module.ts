@@ -15,6 +15,7 @@ import { WorkRequestsComponent } from './pages/work-requests/work-requests.compo
 import { WorkOrdersComponent } from './pages/work-orders/work-orders.component';
 import { StaffComponent } from './pages/staff/staff.component';
 import { SettingsComponent } from './pages/settings/settings.component';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { SettingsComponent } from './pages/settings/settings.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -76,6 +76,11 @@ export const navbarData: INavbarData[] = [
         ]
     },
     {
+        routeLink: 'google-maps',
+        icon: 'fal fa-map',
+        label: 'Google Maps',
+    },
+    {
         routeLink: 'settings',
         icon: 'fal fa-cog',
         label: 'Settings',
